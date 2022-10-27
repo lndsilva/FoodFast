@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:title="Favoritos"
-        android:icon="@drawable/ic_baseline_favorite"
         android:id="@+id/mFav"
-
-
-        />
+        android:icon="@drawable/ic_baseline_favorite"
+        android:title="Favoritos"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mBuscar"
+        android:icon="@drawable/ic_baseline_search"
+        android:title="Buscar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mConfiguracoes"
+        android:icon="@drawable/ic_baseline_settings"
+        android:title="Configurações"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mHistorico"
+        android:icon="@drawable/ic_baseline_history"
+        android:title="Histórico"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mSobre"
+        android:icon="@drawable/ic_baseline_info"
+        android:title="Sobre"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mCompartilhar"
+        android:icon="@drawable/ic_baseline_share"
+        android:title="Compartilhar"
+        app:showAsAction="ifRoom" />
 </menu>
