@@ -11,10 +11,10 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.appbar.MaterialToolbar
-            android:id="@+id/idToolBar"
+            android:id="@+id/idToolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            app:menu="@menu/menu"
+            app:menu="@menu/menu_top"
             app:navigationIcon="@drawable/ic_baseline_arrow_back"
             app:title="Lanches" />
 
