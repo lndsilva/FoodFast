@@ -31,13 +31,11 @@
 
     </com.google.android.material.tabs.TabLayout>
 
-    <FrameLayout
-        android:id="@+id/idContainerTabLayout"
+    <include
+        layout="@layout/fragment_porcoes"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/idTabLayout"
-        android:background="#E91E63">
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTabLayout" />
 
-    </FrameLayout>
 
 </RelativeLayout>
